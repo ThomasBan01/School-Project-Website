@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+h1  {
+     font-style: italic;
+	 font-family: comic sans ms;
+	 font-size: 16;
+}
+
+h2   {
+	font-style: italic;
+}
+
+
+/* Dit de header van de pagina */
+.header {
+    background-color: gray;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: red;
+    color: black;
+}
+
+.table {
+	boder-collapse: collapse;
+}
+
+/* Table Head Style */
+.table th {
+	text-align: left;
+	background-color: #3a6070;
+	color: #Black;
+	padding: 4px 30px 4px 8px;
+}
+/* Table List style */
+.table td {
+	border: 1px solid #e3e3e3;
+	paddng: 4px 8px;
+}
+
+/* Table Rows background color */
+table tr:nth-child(odd) td {
+		background-color: #e7edf0;
+}
+
+.footer{
+   left: 0;
+   bottom: 1;
+   width: 100%;
+   background-color: gray;
+   background-color: #black;
+   color: #black;
+}
